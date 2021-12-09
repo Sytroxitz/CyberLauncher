@@ -1,2 +1,8 @@
 # Project exclude paths
 /out/
+/logs/2021-12-09-3.log.gz
+/logs/2021-12-09-4.log.gz
+/logs/2021-12-09-5.log.gz
+/logs/2021-12-09-6.log
+/libraries.zip
+/natives.zip

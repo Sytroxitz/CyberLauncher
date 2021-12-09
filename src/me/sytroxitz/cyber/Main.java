@@ -1,5 +1,6 @@
 package me.sytroxitz.cyber;
 
+import me.sytroxitz.cyber.ui.LauncherFrame;
 import me.sytroxitz.cyber.util.OSHelper;
 import me.sytroxitz.cyber.util.UnzipUtility;
 import org.apache.commons.io.FileUtils;
@@ -9,7 +10,8 @@ import java.net.URL;
 
 public class Main {
     public static void main(String[] args) {
-        launch();
+        new LauncherFrame();
+        //launch();
     }
 
     public static void launch() {

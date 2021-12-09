@@ -6,7 +6,7 @@ import java.io.File;
 
 public enum OSHelper {
     WINDOWS("AppData" + File.separator + "Roaming" + File.separator + ".minecraft"),
-    MAC("Library" + File.separator + "Applacation Support" + File.separator + "minecraft"),
+    MAC("Library" + File.separator + "Application Support" + File.separator + "minecraft"),
     LINUX(".minecraft");
 
     private final String mc;
